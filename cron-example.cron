@@ -1,0 +1,5 @@
+# this is an example cron job
+# this will run the task every 6 hours and be super annoying.
+# 
+0 */6 * * *       cd /dir-to/your/application && run-prod.sh > /tmp/deadbeat-roommate-results.log
+

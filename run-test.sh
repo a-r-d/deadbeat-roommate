@@ -1,0 +1,1 @@
+node ./app.js --config='./config-example.js' --message='Do you have the rent money yet?'  --target='xxxxxxxxxxx'

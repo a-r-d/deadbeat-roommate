@@ -1,0 +1,23 @@
+{
+  "name": "deadbeat-roommate",
+  "version": "0.1.0",
+  "description": "SMS messages",
+  "main": "app.js",
+  "dependencies": {
+    "plivo": "~0.3.1",
+    "yargs": "~3.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-r-d/deadbeat-roommate.git"
+  },
+  "author": "Aaron Decker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-r-d/deadbeat-roommate/issues"
+  }
+}
