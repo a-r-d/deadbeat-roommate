@@ -1,6 +1,6 @@
 # Deadbeat-Roommate
 
-How to annoy your deadbeat roommate who hasn't paid the rent. Programatically SMS message your roommate at all hours of the day until you get paid. 
+A fun way to annoy your deadbeat roommate who hasn't paid the rent. Programatically SMS or voice message your roommate at all hours of the day until you get paid. 
 
 
 ### Usage:
