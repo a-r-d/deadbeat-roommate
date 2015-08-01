@@ -15,17 +15,18 @@ I provided some examples of how to do this but essentially you will set your Pli
 
 ### SMS integration
 
-I'm using plivo because it is cheaper than twilio.
+I'm using plivo because it is cheaper than twilio. SMS is pretty simple, you supply the 'target' phone number in the command line argument as well as the message and it will send immediately. 
 
 
 ### Voice integration
 
-So with the Plivo voice api you can create the call from the application, but the Plivo application will hit some URL when the call is picked up. Plivo expects you to have some kind of XML at this endpoint. The XML is pretty simple, but you have to supply the answer_url when you place the call. Anyway, it should look something like this:
+So with the Plivo voice api you can create the call from the application, but the Plivo API will then hit some URL when the call is picked up, so you must supply this URL when you create the call. Plivo expects you to have some XML at this endpoint that you have specified. The XML is pretty simple, and the parameter where you set the endpoint is "answer_url" in the config file. You can just put your XML file up on S3 or even link it to this repository, it doesn't really matter.
+
 
 ```
 <Response>
     <Speak language="en-GB" loop="3" voice="WOMAN">
-       Pay your rent, sucker!
+       Pay your rent, wanker!
     </Speak>
 </Response>
 ```
