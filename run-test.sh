@@ -1,1 +1,1 @@
-node ./app.js --config='./config-example.js' --message='Do you have the rent money yet?'  --target='xxxxxxxxxxx'
+node ./app.js --config='./config-example.js' --message='pay up bro!'  --target='xxxxxxxxxxx' --type='sms'
